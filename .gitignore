@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+.pytest_cache/
+
+# Environment and secrets
+.env
+.env.*
+*.secret
+*.pem
+*.key
+
+# Logs and local runtime data
+logs/
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker and local build artifacts
+.docker/
+compose.override.yml
+
+# OS temp files
+*.tmp
+*.bak
+
+# Notebook output
+*.ipynb
+.ipynb_checkpoints/
+
+# Data and generated outputs
+# Keep project input data committed, but ignore generated files.
+output/
+processed/
+postgres_data/
